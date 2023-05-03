@@ -2,6 +2,7 @@
 #include <cmath>
 #include <vector>
 #include <utility>
+#include <numeric>
 
 std::pair<double, double> calc_lat_lon(double x, double y, double phi0_deg, double lambda0_deg) {
     // 平面直角座標系原点をラジアンに直す
